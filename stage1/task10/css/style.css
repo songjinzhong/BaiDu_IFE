@@ -1,0 +1,46 @@
+body {
+  padding: 0;
+  margin: 0;
+}
+.flex {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+@media (max-width: 640px) {
+  .flex {
+    align-items: flex-start;
+    justify-content: space-between;
+    flex-wrap: wrap;
+  }
+  .flex .div4 {
+    order: -1;
+  }
+}
+.flex .div1,
+.flex .div2,
+.flex .div3,
+.flex .div4 {
+  width: 110px;
+  padding: 20px;
+}
+.flex .div1,
+.flex .div2,
+.flex .div3 {
+  border: 1px solid #f00;
+}
+.flex .div4 {
+  border: 1px solid #0f0;
+  height: 160px;
+}
+.flex .div1 {
+  height: 80px;
+}
+.flex .div2 {
+  height: 60px;
+}
+.flex .div3 {
+  height: 0px;
+}
+
+/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInN0eWxlLnN0eWwiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IkFBQUE7RUFDQyxTQUFRLEVBQVI7RUFDQSxRQUFPLEVBQVA7O0FBRUQ7RUFDQyxTQUFRLEtBQVI7RUFDQSxpQkFBZ0IsY0FBaEI7RUFDQSxhQUFZLE9BQVo7O0FBQ3VCO0FBQUE7SUFDdEIsYUFBWSxXQUFaO0lBQ0EsaUJBQWdCLGNBQWhCO0lBQ0EsV0FBVSxLQUFWOztBQUNBO0lBQ0MsT0FBTSxHQUFOOzs7QUFHRjtBQUFNO0FBQU07QUFBTTtFQUNqQixPQUFNLE1BQU47RUFDQSxTQUFRLEtBQVI7O0FBRUQ7QUFBTTtBQUFNO0VBQ1gsUUFBTyxlQUFQOztBQUVEO0VBQ0MsUUFBTyxlQUFQO0VBQ0EsUUFBTyxNQUFQOztBQUVEO0VBQ0MsUUFBTyxLQUFQOztBQUVEO0VBQ0MsUUFBTyxLQUFQOztBQUVEO0VBQ0MsUUFBTyxJQUFQIiwiZmlsZSI6InN0eWxlLmNzcyIsInNvdXJjZVJvb3QiOiIvc291cmNlLyIsInNvdXJjZXNDb250ZW50IjpbImJvZHl7XHJcblx0cGFkZGluZzowO1xyXG5cdG1hcmdpbjowO1xyXG59XHJcbi5mbGV4e1xyXG5cdGRpc3BsYXk6ZmxleDtcclxuXHRqdXN0aWZ5LWNvbnRlbnQgc3BhY2UtYmV0d2VlblxyXG5cdGFsaWduLWl0ZW1zIGNlbnRlclxyXG5cdEBtZWRpYSAobWF4LXdpZHRoOjY0MHB4KXtcclxuXHRcdGFsaWduLWl0ZW1zIGZsZXgtc3RhcnRcclxuXHRcdGp1c3RpZnktY29udGVudCBzcGFjZS1iZXR3ZWVuXHJcblx0XHRmbGV4LXdyYXAgd3JhcFxyXG5cdFx0LmRpdjR7XHJcblx0XHRcdG9yZGVyIC0xXHJcblx0XHR9XHJcblx0fVxyXG5cdC5kaXYxLC5kaXYyLC5kaXYzLC5kaXY0e1xyXG5cdFx0d2lkdGg6MTEwcHhcclxuXHRcdHBhZGRpbmc6MjBweFxyXG5cdH1cclxuXHQuZGl2MSwuZGl2MiwuZGl2M3tcclxuXHRcdGJvcmRlcjoxcHggc29saWQgI2YwMDtcclxuXHR9XHJcblx0LmRpdjR7XHJcblx0XHRib3JkZXI6MXB4IHNvbGlkICMwZjA7XHJcblx0XHRoZWlnaHQ6MTYwcHg7XHJcblx0fVxyXG5cdC5kaXYxe1xyXG5cdFx0aGVpZ2h0OjgwcHhcclxuXHR9XHJcblx0LmRpdjJ7XHJcblx0XHRoZWlnaHQ6NjBweDtcclxuXHR9XHJcblx0LmRpdjN7XHJcblx0XHRoZWlnaHQ6MHB4O1xyXG5cdH1cclxufSJdfQ== */
