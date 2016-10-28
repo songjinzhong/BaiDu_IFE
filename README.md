@@ -1,6 +1,8 @@
 # BaiDu_IFE
 百度前端技术学院学习 http://ife.baidu.com/task/all
 
+本项目原本由我和师兄组成的[团队](https://github.com/1exciting)一起做，但由于 9 月份师兄们找工作等其他原因，搁置很久，现在把[项目](https://github.com/1exciting/BD_FET)中我做的部分搬过来，开船...
+
 - stage1
     + [x] [task3](https://songjinzhong.github.io/BaiDu_IFE/stage1/task3/)
     + [x] [task4](https://songjinzhong.github.io/BaiDu_IFE/stage1/task4/)
