@@ -12,14 +12,16 @@
   <div>您输入的值是：<span id="aqi-display">尚无录入</span></div>
 
 <script type="text/javascript">
-
+/*
 (function() {
+/*
   /*	
   在注释下方写下代码
   给按钮button绑定一个点击事件
   在事件处理函数中
   获取aqi-input输入的值，并显示在aqi-display中
   */
+  /*
   var button=document.getElementById("button");
   var input=document.getElementById("aqi-input");
   var display=document.getElementById("aqi-display");
@@ -41,7 +43,42 @@
       }
     });
 })();
-
+*/
+/*
+ * 代码重构
+ */
+!function(){
+  var $ = function(config){
+    return new $.prototype.init(config);
+  }
+  $.prototype = {
+    constructor: $,
+    init: function(config){
+      this.button=document.getElementById(config.button);
+      this.input=document.getElementById(config.input);
+      this.display=document.getElementById(config.display);
+      this.render();
+    },
+    render: function(){
+      this.button.addEventListener('click', this.handler.bind(this));
+    },
+    handler: function(){
+      var num = this.input.value;
+      if(!isNaN(num)){
+        this.display.innerHTML = num;
+      }else{
+        alert("invalid num!")
+      }
+    }
+  }
+  $.prototype.init.prototype = $.prototype;
+  window.$ = $;
+}();
+$({
+  button: "button",
+  input: "aqi-input",
+  display: "aqi-display"
+})
 </script>
 </body>
 </html>
